@@ -29,3 +29,38 @@ curl --location 'http://localhost:8080/api/call?input=Request1' \
 
 In this implementation, we apply a client-level rate limit. If a single client sends more than 15 requests within a minute, the client will experience a one-minute waiting period before making further requests. 
 Other clients will continue to function as usual without interruption.
+
+
+How To run:-
+Run Server side Application first It is a spring boot application, 
+once it is up and running, you can run the client side application which is java based application
+
+Output:-
+
+```
+Response for Request 1: Data retrieved for: Request 1
+Response for Request 2: Data retrieved for: Request 2
+Response for Request 3: Data retrieved for: Request 3
+Response for Request 4: Data retrieved for: Request 4
+Response for Request 5: Data retrieved for: Request 5
+Response for Request 6: Data retrieved for: Request 6
+Response for Request 7: Data retrieved for: Request 7
+Response for Request 8: Data retrieved for: Request 8
+Response for Request 9: Data retrieved for: Request 9
+Response for Request 10: Data retrieved for: Request 10
+Response for Request 11: Data retrieved for: Request 11
+Response for Request 12: Data retrieved for: Request 12
+Response for Request 13: Data retrieved for: Request 13
+Response for Request 14: Data retrieved for: Request 14
+Response for Request 15: Data retrieved for: Request 15
+Waiting for 1 min to avoid rate limit
+Response for Request 16: Data retrieved for: Request 16
+Response for Request 17: Data retrieved for: Request 17
+Response for Request 18: Data retrieved for: Request 18
+Response for Request 19: Data retrieved for: Request 19
+Response for Request 20: Data retrieved for: Request 20
+
+```
+
+
+
