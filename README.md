@@ -32,8 +32,13 @@ Other clients will continue to function as usual without interruption.
 
 
 How To run:-
-Run Server side Application first It is a spring boot application, 
-once it is up and running, you can run the client side application which is java based application
+
+Run Server side Application first which is a spring boot application.
+
+once it is up and running, you can run the client side application which is java based application.
+
+Once both applications are running, the client will start making requests to the server, adhering to the rate limits defined in the solution.
+
 
 Output:-
 
